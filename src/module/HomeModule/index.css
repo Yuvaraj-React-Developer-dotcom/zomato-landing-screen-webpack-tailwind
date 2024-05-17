@@ -1,0 +1,85 @@
+.overall-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* position: relative; */
+}
+.first-container {
+  height: 90vh;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/3149e5eb-4660-4e3d-9e65-b1e615229c64/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#bg-tv-container {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 355px;
+  /* width: ; */
+}
+#bg-phone-container {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 355px;
+  /* width: ; */
+}
+#bg-mac-container {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 355px;
+  /* width: ; */
+}
+#bg-cartoon-container {
+  background-image: url("https://occ-0-2041-3662.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 355px;
+  /* width: ; */
+}
+
+.second-container {
+  /* background: rgb(0 0 0 / 70%); */
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-width: 8px;
+  border-top-color: #232323;
+}
+.fourth-container {
+  border-top-width: 8px;
+  border-top-color: #232323;
+}
+.fifth-container {
+  border-top-width: 8px;
+  border-top-color: #232323;
+}
+.shadow-bg {
+  background: rgb(0 0 0 / 70%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.second-bg {
+  position: relative;
+  z-index: 2;
+}
+.image-controller {
+  height: 46px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
